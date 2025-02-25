@@ -28,11 +28,11 @@ git clone https://github.com/yourusername/emergency-service-server.git
 5. Access the server endpoints via http://localhost:8080. You can use Postman or any other API testing tool to interact with the API.
 
 ## 🏠 Architecture
-Kotlin: The primary programming language used for the project.
-Ktor Framework: The server is built using the Ktor framework for handling HTTP requests and routing.
-SQL Exposed: For interacting with the H2 database and mapping data to entities.
-H2 Database: The database stores the zones and incidents, and H2 is used for local storage during development.
-Clean Architecture:  The project follows Clean Architecture principles for maintainability, scalability, and testability, ensuring a clear separation of concerns between the server's layers.
+- Kotlin: The primary programming language used for the project.
+- Ktor Framework: The server is built using the Ktor framework for handling HTTP requests and routing.
+- SQL Exposed: For interacting with the H2 database and mapping data to entities.
+- H2 Database: The database stores the zones and incidents, and H2 is used for local storage during development.
+- Clean Architecture:  The project follows Clean Architecture principles for maintainability, scalability, and testability, ensuring a clear separation of concerns between the server's layers.
 
 ## License
 This project is licensed under the Apache License 2.0.
